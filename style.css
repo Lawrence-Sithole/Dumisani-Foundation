@@ -26,4 +26,35 @@ body {
   border-bottom: 2px solid rgba(229, 229, 229, 1);
   font-size: 18px;
   font-weight: 600;
+  position: relative;
+}
+.tab_box .tab_btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(145, 145, 145);
+  background: none;
+  border: none;
+  padding: 18px;
+  cursor: pointer;
+}
+.tab_box .tab_btn.active {
+  color: rgb(115, 96, 255);
+}
+.content_box {
+  padding: 20px;
+}
+.content_box .content {
+  display: none;
+}
+.content_box .content h2 {
+  margin-bottom: 10px;
+}
+.line {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 90px;
+  height: 5px;
+  background-color: rgb(115, 96, 255);
+  border-radius: 10px;
 }

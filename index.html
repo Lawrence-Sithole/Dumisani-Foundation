@@ -13,6 +13,7 @@
         <button class="tab_btn">About</button>
         <button class="tab_btn">Blogs</button>
         <button class="tab_btn">Contact Us</button>
+        <div class="line"></div>
       </div>
       <div class="content_box">
         <div class="content">
@@ -53,5 +54,18 @@
         </div>
       </div>
     </div>
+    <script>
+      const tabs = document.querySelectorAll(".tab_btn");
+      const all_content = document.querySelectorAll(".content");
+
+      tabs.forEach((tab, index) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((tab) => {
+            tab.classList.remove("active");
+          });
+          tab.classList.add("active");
+        });
+      });
+    </script>
   </body>
 </html>
