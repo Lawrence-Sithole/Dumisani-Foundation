@@ -45,6 +45,21 @@ body {
 }
 .content_box .content {
   display: none;
+  animation: moving 0.5s ease;
+}
+@keyframes moving {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.content_box .content.active {
+  display: block;
 }
 .content_box .content h2 {
   margin-bottom: 10px;
@@ -52,9 +67,10 @@ body {
 .line {
   position: absolute;
   top: 56px;
-  left: 0;
+  left: 17px;
   width: 90px;
   height: 5px;
   background-color: rgb(115, 96, 255);
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
