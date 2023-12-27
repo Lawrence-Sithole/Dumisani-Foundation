@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa,
+    Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri,
+    source-sans-pro, sans-serif;
+  font-weight: normal;
 }
 .heading {
   background-color: rgb(30, 80, 30);
@@ -18,4 +21,8 @@
 .charity-number {
   text-align: end;
   font-size: 0.5em;
+}
+.footer {
+  height: 20px;
+  background: rgb(30, 80, 30);
 }
