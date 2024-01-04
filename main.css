@@ -8,6 +8,9 @@
     source-sans-pro, sans-serif;
   font-weight: normal;
 }
+body {
+  height: 98vh;
+}
 .heading {
   background-color: rgb(30, 80, 30);
   border: solid;
@@ -32,11 +35,13 @@ ul {
   text-align: center;
   text-decoration-line: underline;
   margin: 10px 0 10px 0;
+  font-size: smaller;
 }
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  font-size: smaller;
 }
 
 .grid-item {
