@@ -8,9 +8,7 @@
     source-sans-pro, sans-serif;
   font-weight: normal;
 }
-body {
-  height: 98vh;
-}
+
 .heading {
   background-color: rgb(30, 80, 30);
   border: solid;
