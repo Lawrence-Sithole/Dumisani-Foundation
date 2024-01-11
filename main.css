@@ -66,6 +66,8 @@ ul {
 }
 .charity-number {
   text-align: end;
+  font-size: 0.45rem;
+  color: whitesmoke;
 }
 .footer {
   height: 20px;
